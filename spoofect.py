@@ -58,11 +58,12 @@ while 1 :
 	elif  a != e : 
 		 print str("[+] New clean email \n here are the details \n")
 		 e = a
-	#Uncomment the following lines to see the details of each incoming email 
+ 
 	else  :  
 		time.sleep(1)
 		pass
-	for h in headers.items():
-		print str(h[0] + " : " + h[1]+"\n")
+	#Uncomment the following lines to see the details of each incoming email
+	#for h in headers.items():
+	#	print str(h[0] + " : " + h[1]+"\n")
 
 
